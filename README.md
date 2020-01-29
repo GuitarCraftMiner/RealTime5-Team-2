@@ -1,2 +1,4 @@
-# RealTime5-Team-2
-Github made me do this!
+# RealTime5-Team-2 - Project repository for Real Time Embedded Programming 5.
+
+# Project Title: Adaptive Wind Turbine Pitch Control
+
