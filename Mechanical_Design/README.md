@@ -2,7 +2,7 @@
 
 ## Assembly
 * All parts separately as .IPT
-* Assemblies as .IPM
+* Assemblies as .IAM
 
 ## Generator
 * .IPT Autodesk drawing
