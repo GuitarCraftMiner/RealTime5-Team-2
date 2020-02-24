@@ -9,7 +9,7 @@
 * .STP Generic Step file
 
 ## Assembly Image Render
-![Assembly (incomplete)](images/assembly_V2.png)
+![Assembly (incomplete)](https://github.com/GuitarCraftMiner/RealTime5-Team-2/blob/master/images/assembly_V2.png)
 
 ## Parts links
 
