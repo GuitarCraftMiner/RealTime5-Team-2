@@ -1,7 +1,7 @@
 # Folder for mechanical design files
 
 ## Assembly
-* All mechanical files separately as .IPT
+* All parts separately as .IPT
 * Assemblies as .IPM
 
 ## Generator
