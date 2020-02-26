@@ -3,3 +3,6 @@
 ## Electrical Diagram
 
 
+## ADC circuit
+
+
