@@ -1,4 +1,4 @@
-# Folder for mechanical design files
+# Mechanical Design of Wind Turbine
 
 ## Assembly
 * All parts separately as .IPT
