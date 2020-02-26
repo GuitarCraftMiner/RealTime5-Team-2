@@ -1,6 +1,6 @@
-# Folder for Electronic files
+# Folder for Electronics files
 
-## Electrical Diagram
+## Schematic Diagram
 
 
 ## ADC circuit
