@@ -1,4 +1,4 @@
-# Folder for Electronics files
+# Electronic Design for System
 
 ## Block Diagram
 
