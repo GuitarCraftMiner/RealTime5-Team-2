@@ -3,7 +3,7 @@
 #include <QProgressBar>
 
 int main(int argc, char **argv){
-    /*QApplication app (argc, argv);
+    QApplication app (argc, argv);
 
     QWidget window;
 
@@ -13,9 +13,9 @@ int main(int argc, char **argv){
 
     window.show();
 
-    return app.exec();*/
+    return app.exec();
 
-    QApplication myApp(argc, argv);
+    /*QApplication myApp(argc, argv);
     QWidget window;
 
     QProgressBar* bar = new QProgressBar(&window);
@@ -29,5 +29,5 @@ int main(int argc, char **argv){
                       ")}");
     window.show();
 
-    return myApp.exec();
+    return myApp.exec();*/
 }
