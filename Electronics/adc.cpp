@@ -25,13 +25,16 @@ void printBits(size_t const size, void const * const ptr)
 int main(int argc, char *argv[])
 {
   uint16_t adc0;
+  int dec, vol;
 
   ads.setGain(GAIN_TWOTHIRDS);
   ads.begin();
   while (true) {
     adc0 = ads.readADC_SingleEnded(0);
-    printBits(sizeof(adc0), &adc0);
-    printf(" *** %d\n", adc0);
+    dec = adc0 % 10
+    vol = dec*3300/4096
+    #printBits(sizeof(adc0), &adc0);
+    printf(" *** %d\n", vol);
     usleep(100000);
   }
 }
