@@ -9,8 +9,9 @@ CircularGauge {
     id: gauge
 
     style: CircularGaugeStyle {
-        labelStepSize: 10
+        labelStepSize: 300
         labelInset: outerRadius / 2.2
+        tickmarkStepSize: 300
         tickmarkInset: outerRadius / 4.2
         minorTickmarkInset: outerRadius / 4.2
         minimumValueAngle: -90
@@ -43,23 +44,15 @@ CircularGauge {
         tickmarkLabel:  Text {
             font.pixelSize: Math.max(6, outerRadius * 0.05)
             text: styleData.value
-            color: styleData.value >= 66 ? "darkred" : "#777776" | styleData.value <= 33 ? "gold" : "#777776" | 33 <= styleData.value <= 66 ? "forestgreen" : "#777776"
+            color: black
             antialiasing: true
         }
-
-        /*tickmark: Image {
-            source: "qrc:/img/tickmark.svg"
-            width: outerRadius * 0.018
-            height: outerRadius * 0.15
-            antialiasing: true
-            asynchronous: true
-        }*/
 
         tickmark: Rectangle {
             implicitWidth: outerRadius * 0.02
             implicitHeight: outerRadius * 0.15
             antialiasing: true
-            color: styleData.value >= 66 ? "darkred" : "#777776" | styleData.value <= 33 ? "gold" : "#777776" | 33 <= styleData.value <= 66 ? "forestgreen" : "#777776"
+            color: styleData.value >= 2500 ? "darkred" : "#777776" | styleData.value <= 1000 ? "gold" : "#777776" | 1000 <= styleData.value <= 2500 ? "forestgreen" : "#777776"
 
         }
 
@@ -68,7 +61,7 @@ CircularGauge {
             implicitHeight: outerRadius * 0.03
             antialiasing: true
             smooth: true
-            color: styleData.value >= 66 ? "darkred" : "#777776" | styleData.value <= 33 ? "gold" : "#777776" | 33 <= styleData.value <= 66 ? "forestgreen" : "#777776"
+            color: styleData.value >= 2500 ? "darkred" : "#777776" | styleData.value <= 1000 ? "gold" : "#777776" | 1000 <= styleData.value <= 2500 ? "forestgreen" : "#777776"
 
         }
     }

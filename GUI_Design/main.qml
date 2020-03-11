@@ -18,7 +18,7 @@ ApplicationWindow {
         property bool accelerating
 
         value: accelerating ? maximumValue : 0
-        maximumValue: 100
+        maximumValue: 3300
         anchors {
             fill: parent
             margins: window.height * 0.005
