@@ -32,6 +32,6 @@ int main(int argc, char *argv[])
     adc0 = ads.readADC_SingleEnded(0);
     printBits(sizeof(adc0), &adc0);
     printf(" *** %d\n", adc0);
-    usleep(100000);
+    usleep(1000000);
   }
 }
