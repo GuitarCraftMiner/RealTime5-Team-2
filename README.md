@@ -6,7 +6,7 @@
 
 ## Project Title: Adaptive Wind Turbine Pitch Control
 ### Brief Description
-The project aims to build a small scale wind turbine model with automated pitch controll. It will be able to react to changes in wind speed in real time and adjust the blades to main a safe and stable generator output voltage. The commanded pitch and the generated voltage will be displayed on an external screen.
+The project aims to build a small scale wind turbine model with automated pitch control. It will be able to react to changes in wind speed in real time and adjust the blades to main a safe and stable generator output voltage. The commanded pitch and the generated voltage will be displayed on an external screen.
 
 ### System diagram
 ![System Block Diagram](images/Initial_Pitch_System_block_diagram.svg)
