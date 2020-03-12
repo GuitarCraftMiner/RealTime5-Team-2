@@ -13,5 +13,5 @@ The project aims to build a small scale wind turbine model with automated pitch 
 
 
 
-![TwitterLogo](images/twitter_PNG9.png)Follow us at our Twitter page (@wtbpc):
+Follow us at our Twitter page (@wtbpc):
 https://twitter.com/wtbpc?s=08
