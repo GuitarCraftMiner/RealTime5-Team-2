@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/adc.dir/Adafruit_ADS1015.cpp.o CMakeFiles/adc.dir/genVoltage.cpp.o CMakeFiles/adc.dir/adc.cpp.o  -o adc -lwiringPi 
