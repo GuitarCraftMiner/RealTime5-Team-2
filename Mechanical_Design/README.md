@@ -17,6 +17,8 @@ Link: https://uk.rs-online.com/web/p/ball-bearings/6189979/
 
 # Detailed Description of Design
 
+The model was designed using Autodesk Fusion 360 to be accessible for everyone to download and work with as Fusion 360 is available for free for hobbyists to use. It is also widely supported online and plenty of guides are available to allow for the model parts to be manufactured using almost any method.
+
 ## Rotor
 
 ![Rotor Drawing](https://github.com/GuitarCraftMiner/RealTime5-Team-2/blob/master/images/Rotor_Diagram.png)
