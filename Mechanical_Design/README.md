@@ -29,4 +29,5 @@ The most crucial reguirement for the rotor is that it must be able to adjust the
 
 ![Mechaninsm Explained](https://github.com/GuitarCraftMiner/RealTime5-Team-2/blob/master/images/Mechanism_explain.png)
 ![Turbine Blade](https://github.com/GuitarCraftMiner/RealTime5-Team-2/blob/master/images/Blade.png)
+![Full_Assembly](https://github.com/GuitarCraftMiner/RealTime5-Team-2/blob/master/images/Assembly.png)
 
