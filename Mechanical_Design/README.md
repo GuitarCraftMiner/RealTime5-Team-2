@@ -15,9 +15,9 @@ Link: https://uk.rs-online.com/web/p/ball-bearings/6189890/
 ### 10mm Ball Bearings
 Link: https://uk.rs-online.com/web/p/ball-bearings/6189979/
 
-## Detailed Description of Design
+# Detailed Description of Design
 
-# Rotor
+## Rotor
 
 ![Rotor Drawing](https://github.com/GuitarCraftMiner/RealTime5-Team-2/blob/master/images/Rotor_Diagram.png)
 
