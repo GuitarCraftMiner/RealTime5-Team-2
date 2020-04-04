@@ -19,7 +19,7 @@ Link: https://uk.rs-online.com/web/p/ball-bearings/6189979/
 
 # Rotor
 
-![Rotor Drawing](Rotor_Diagram.png)
+![Rotor Drawing](https://github.com/GuitarCraftMiner/RealTime5-Team-2/blob/master/images/Rotor_Diagram.png)
 
 The main idea behing this design was to follow the way helicopter blade pitch mechanisms are designed and implement it in the wind turbine model at a smaller scale and using simple off-the-shelf or easy to make components.
 
