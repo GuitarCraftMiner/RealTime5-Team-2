@@ -5,7 +5,6 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/Adafruit_ADS1015.cpp" "/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/CMakeFiles/main.dir/Adafruit_ADS1015.cpp.o"
-  "/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/DemoThread.cpp" "/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/CMakeFiles/main.dir/DemoThread.cpp.o"
   "/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/genVoltage.cpp" "/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/CMakeFiles/main.dir/genVoltage.cpp.o"
   "/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/main.cpp" "/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/CMakeFiles/main.dir/main.cpp.o"
   "/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/pwmSet.cpp" "/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/CMakeFiles/main.dir/pwmSet.cpp.o"

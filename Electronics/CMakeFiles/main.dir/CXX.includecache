@@ -27,12 +27,20 @@ thread
 -
 Adafruit_ADS1015.h
 /home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/Adafruit_ADS1015.h
+wiringPi.h
+-
 wiringPiI2C.h
 -
 genVoltage.h
 /home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/genVoltage.h
+pwmSet.h
+/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/pwmSet.h
 
 /home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/genVoltage.h
+CppThread.h
+/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/CppThread.h
+
+/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/pwmSet.h
 CppThread.h
 /home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/CppThread.h
 

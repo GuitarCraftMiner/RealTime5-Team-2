@@ -150,33 +150,6 @@ Adafruit_ADS1015.cpp.s:
 	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Adafruit_ADS1015.cpp.s
 .PHONY : Adafruit_ADS1015.cpp.s
 
-DemoThread.o: DemoThread.cpp.o
-
-.PHONY : DemoThread.o
-
-# target to build an object file
-DemoThread.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/DemoThread.cpp.o
-.PHONY : DemoThread.cpp.o
-
-DemoThread.i: DemoThread.cpp.i
-
-.PHONY : DemoThread.i
-
-# target to preprocess a source file
-DemoThread.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/DemoThread.cpp.i
-.PHONY : DemoThread.cpp.i
-
-DemoThread.s: DemoThread.cpp.s
-
-.PHONY : DemoThread.s
-
-# target to generate assembly for a file
-DemoThread.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/DemoThread.cpp.s
-.PHONY : DemoThread.cpp.s
-
 genVoltage.o: genVoltage.cpp.o
 
 .PHONY : genVoltage.o
@@ -270,9 +243,6 @@ help:
 	@echo "... Adafruit_ADS1015.o"
 	@echo "... Adafruit_ADS1015.i"
 	@echo "... Adafruit_ADS1015.s"
-	@echo "... DemoThread.o"
-	@echo "... DemoThread.i"
-	@echo "... DemoThread.s"
 	@echo "... genVoltage.o"
 	@echo "... genVoltage.i"
 	@echo "... genVoltage.s"
