@@ -99,9 +99,9 @@ Adafruit_ADS1115::Adafruit_ADS1115(uint8_t i2cAddress)
 */
 /**************************************************************************/
 void Adafruit_ADS1015::begin() {
-  printf("setting up ADS with m_i2cAddress = %d\n", m_i2cAddress);
+  //printf("setting up ADS with m_i2cAddress = %d\n", m_i2cAddress);
   m_i2cFd = wiringPiI2CSetup(m_i2cAddress);
-  printf("m_i2cFd = %d\n", m_i2cFd);
+  //printf("m_i2cFd = %d\n", m_i2cFd);
 }
 
 /**************************************************************************/
@@ -339,7 +339,7 @@ void Adafruit_ADS1015::startComparator_SingleEnded(uint8_t channel, int16_t thre
 void Adafruit_ADS1015::updateWiringPiSetup()
 {
   m_i2cFd = wiringPiI2CSetup(m_i2cAddress);
-  printf("new fd: %d\n", m_i2cFd);
+  //printf("new fd: %d\n", m_i2cFd);
 }
 
 /**************************************************************************/

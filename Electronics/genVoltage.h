@@ -1,11 +1,12 @@
 #ifndef GENVOLTAGE_H
 #define GENVOLTAGE_H
 
-class genVoltage{
+#include "CppThread.h"
 
-	public: 
-		int getReading();
-		int getVoltage(int input);
+class genVoltage : public CppThread {
+	
+public:
+	void run();
 };
 
 #endif

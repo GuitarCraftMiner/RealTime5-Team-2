@@ -19,10 +19,16 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.13/Modules/CMakeLanguageInformation.cmake"
   "/usr/share/cmake-3.13/Modules/CMakeSystemSpecificInformation.cmake"
   "/usr/share/cmake-3.13/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/share/cmake-3.13/Modules/CheckIncludeFile.cmake"
+  "/usr/share/cmake-3.13/Modules/CheckLibraryExists.cmake"
+  "/usr/share/cmake-3.13/Modules/CheckSymbolExists.cmake"
   "/usr/share/cmake-3.13/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/usr/share/cmake-3.13/Modules/Compiler/GNU-C.cmake"
   "/usr/share/cmake-3.13/Modules/Compiler/GNU-CXX.cmake"
   "/usr/share/cmake-3.13/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.13/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/share/cmake-3.13/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.13/Modules/FindThreads.cmake"
   "/usr/share/cmake-3.13/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.13/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.13/Modules/Platform/Linux-GNU.cmake"
@@ -43,5 +49,5 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/adc.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
   )

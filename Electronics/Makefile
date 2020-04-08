@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named adc
+# Target rules for targets named main
 
 # Build rule for target.
-adc: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 adc
-.PHONY : adc
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-adc/fast:
-	$(MAKE) -f CMakeFiles/adc.dir/build.make CMakeFiles/adc.dir/build
-.PHONY : adc/fast
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
 Adafruit_ADS1015.o: Adafruit_ADS1015.cpp.o
 
@@ -129,7 +129,7 @@ Adafruit_ADS1015.o: Adafruit_ADS1015.cpp.o
 
 # target to build an object file
 Adafruit_ADS1015.cpp.o:
-	$(MAKE) -f CMakeFiles/adc.dir/build.make CMakeFiles/adc.dir/Adafruit_ADS1015.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Adafruit_ADS1015.cpp.o
 .PHONY : Adafruit_ADS1015.cpp.o
 
 Adafruit_ADS1015.i: Adafruit_ADS1015.cpp.i
@@ -138,7 +138,7 @@ Adafruit_ADS1015.i: Adafruit_ADS1015.cpp.i
 
 # target to preprocess a source file
 Adafruit_ADS1015.cpp.i:
-	$(MAKE) -f CMakeFiles/adc.dir/build.make CMakeFiles/adc.dir/Adafruit_ADS1015.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Adafruit_ADS1015.cpp.i
 .PHONY : Adafruit_ADS1015.cpp.i
 
 Adafruit_ADS1015.s: Adafruit_ADS1015.cpp.s
@@ -147,35 +147,35 @@ Adafruit_ADS1015.s: Adafruit_ADS1015.cpp.s
 
 # target to generate assembly for a file
 Adafruit_ADS1015.cpp.s:
-	$(MAKE) -f CMakeFiles/adc.dir/build.make CMakeFiles/adc.dir/Adafruit_ADS1015.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Adafruit_ADS1015.cpp.s
 .PHONY : Adafruit_ADS1015.cpp.s
 
-adc.o: adc.cpp.o
+DemoThread.o: DemoThread.cpp.o
 
-.PHONY : adc.o
+.PHONY : DemoThread.o
 
 # target to build an object file
-adc.cpp.o:
-	$(MAKE) -f CMakeFiles/adc.dir/build.make CMakeFiles/adc.dir/adc.cpp.o
-.PHONY : adc.cpp.o
+DemoThread.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/DemoThread.cpp.o
+.PHONY : DemoThread.cpp.o
 
-adc.i: adc.cpp.i
+DemoThread.i: DemoThread.cpp.i
 
-.PHONY : adc.i
+.PHONY : DemoThread.i
 
 # target to preprocess a source file
-adc.cpp.i:
-	$(MAKE) -f CMakeFiles/adc.dir/build.make CMakeFiles/adc.dir/adc.cpp.i
-.PHONY : adc.cpp.i
+DemoThread.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/DemoThread.cpp.i
+.PHONY : DemoThread.cpp.i
 
-adc.s: adc.cpp.s
+DemoThread.s: DemoThread.cpp.s
 
-.PHONY : adc.s
+.PHONY : DemoThread.s
 
 # target to generate assembly for a file
-adc.cpp.s:
-	$(MAKE) -f CMakeFiles/adc.dir/build.make CMakeFiles/adc.dir/adc.cpp.s
-.PHONY : adc.cpp.s
+DemoThread.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/DemoThread.cpp.s
+.PHONY : DemoThread.cpp.s
 
 genVoltage.o: genVoltage.cpp.o
 
@@ -183,7 +183,7 @@ genVoltage.o: genVoltage.cpp.o
 
 # target to build an object file
 genVoltage.cpp.o:
-	$(MAKE) -f CMakeFiles/adc.dir/build.make CMakeFiles/adc.dir/genVoltage.cpp.o
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/genVoltage.cpp.o
 .PHONY : genVoltage.cpp.o
 
 genVoltage.i: genVoltage.cpp.i
@@ -192,7 +192,7 @@ genVoltage.i: genVoltage.cpp.i
 
 # target to preprocess a source file
 genVoltage.cpp.i:
-	$(MAKE) -f CMakeFiles/adc.dir/build.make CMakeFiles/adc.dir/genVoltage.cpp.i
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/genVoltage.cpp.i
 .PHONY : genVoltage.cpp.i
 
 genVoltage.s: genVoltage.cpp.s
@@ -201,8 +201,62 @@ genVoltage.s: genVoltage.cpp.s
 
 # target to generate assembly for a file
 genVoltage.cpp.s:
-	$(MAKE) -f CMakeFiles/adc.dir/build.make CMakeFiles/adc.dir/genVoltage.cpp.s
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/genVoltage.cpp.s
 .PHONY : genVoltage.cpp.s
+
+main.o: main.cpp.o
+
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+pwmSet.o: pwmSet.cpp.o
+
+.PHONY : pwmSet.o
+
+# target to build an object file
+pwmSet.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/pwmSet.cpp.o
+.PHONY : pwmSet.cpp.o
+
+pwmSet.i: pwmSet.cpp.i
+
+.PHONY : pwmSet.i
+
+# target to preprocess a source file
+pwmSet.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/pwmSet.cpp.i
+.PHONY : pwmSet.cpp.i
+
+pwmSet.s: pwmSet.cpp.s
+
+.PHONY : pwmSet.s
+
+# target to generate assembly for a file
+pwmSet.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/pwmSet.cpp.s
+.PHONY : pwmSet.cpp.s
 
 # Help Target
 help:
@@ -211,17 +265,23 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... adc"
+	@echo "... main"
 	@echo "... edit_cache"
 	@echo "... Adafruit_ADS1015.o"
 	@echo "... Adafruit_ADS1015.i"
 	@echo "... Adafruit_ADS1015.s"
-	@echo "... adc.o"
-	@echo "... adc.i"
-	@echo "... adc.s"
+	@echo "... DemoThread.o"
+	@echo "... DemoThread.i"
+	@echo "... DemoThread.s"
 	@echo "... genVoltage.o"
 	@echo "... genVoltage.i"
 	@echo "... genVoltage.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... pwmSet.o"
+	@echo "... pwmSet.i"
+	@echo "... pwmSet.s"
 .PHONY : help
 
 
