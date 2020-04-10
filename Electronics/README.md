@@ -12,6 +12,5 @@ The specifications of ADS1015 which has been chosen to convert signal will be pr
 
 Table 1: Specifications of ADS1015 and the recommendded operating conditions
 |Feature|Pins|Min/Reccommendded|Max/Reccommendded|Unit|
-|---|---|---|---|---|
-|Power-supply voltage|VDD to GND|-3/2|7/5.5|V|
 |:---|:---|:---:|:---:|:---:|
+|Power-supply voltage|VDD to GND|-3/2|7/5.5|V|
