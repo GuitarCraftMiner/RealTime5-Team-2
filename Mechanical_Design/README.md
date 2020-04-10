@@ -1,7 +1,7 @@
 # Mechanical Design of Wind Turbine
 
 !!! A detailed description can be found at the wiki !!!
-!https://github.com/GuitarCraftMiner/RealTime5-Team-2/wiki/Mechanical-Design
+!(https://github.com/GuitarCraftMiner/RealTime5-Team-2/wiki/Mechanical-Design)
 
 ## Assembly
 * All parts separately as .IPT
