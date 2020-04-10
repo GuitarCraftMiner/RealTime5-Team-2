@@ -8,6 +8,7 @@
 int servo = 1;	//PWM pin
 
 void pwmSet::run() {
+	// Set Servo PWM
 	pwmWrite(servo, new_pwm);
 }
 
