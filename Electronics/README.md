@@ -14,4 +14,4 @@ Table 1: Specifications of ADS1015 and the recommendded operating conditions
 |Feature|Pins|Min/Reccommendded|Max/Reccommendded|Unit|
 |---|---|---|---|---|
 |Power-supply voltage|VDD to GND|-3/2|7/5.5|V|
-
+|:---|:---|:---:|:---:|:---:|
