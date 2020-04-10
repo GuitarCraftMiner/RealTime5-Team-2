@@ -17,3 +17,4 @@ Table 1: Specifications of ADS1015 and the recommendded operating conditions
 |Analog input voltage|AIN0,AIN1,AIN2,AIN3|GND-0.3 / ±0.256|VDD+0.3 / ±6.144|V|
 |Digital input voltage|SDA,SCL,ADDR,ALERT/RDY|GND-0.3 / GND|5.5 / 5.5|V|
 |Input current, continuous|Any pin ecept power supply pins|-10|10|mA|
+*Adapted from TEXA INSTRUMENTS*
