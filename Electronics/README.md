@@ -8,7 +8,7 @@ Analog output signal from the generator is fed into an Analog-to-Digital-Convert
 
 
 ## ADC circuit
-The specifications of ADS1015 which has been chosen to convert signal will be provided in the table 1, 
+The specifications of ADS1015 which has been chosen to convert signal will be provided in the table 1. 
 
 Table 1: Specifications of ADS1015 and the recommendded operating conditions
 |Feature|Pins|Min/Reccommendded|Max/Reccommendded|Unit|
@@ -18,4 +18,6 @@ Table 1: Specifications of ADS1015 and the recommendded operating conditions
 |Digital input voltage|SDA,SCL,ADDR,ALERT/RDY|GND-0.3 / GND|5.5 / 5.5|V|
 |Input current, continuous|Any pin ecept power supply pins|-10|10|mA|
 
-*Adapted from TEXA INSTRUMENTS*
+*(Adapted from TEXAS INSTRUMENTS)*
+
+At first ADS1015 was expected to receive analog voltage alone from the wind turbine model which is quite small, however, the result after it has been tested is not as the expectation. Therefore, it requires an amplifier which could increase the signal, ... has been chosen for this circuit. 
