@@ -1,3 +1,0 @@
-/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/CMakeFiles/rebuild_cache.dir
-/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/CMakeFiles/main.dir
-/home/pi/Documents/RealTime/RealTime5-Team-2/Electronics/CMakeFiles/edit_cache.dir
