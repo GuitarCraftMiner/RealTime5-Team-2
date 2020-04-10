@@ -8,5 +8,10 @@ Analog output signal from the generator is fed into an Analog-to-Digital-Convert
 
 
 ## ADC circuit
+The specifications of ADS1015 which has been chosen to convert signal will be provided in the table 1, 
 
+Table 1: Specifications of ADS1015 and the recommendded operating conditions
+|Feature|Pins|Min/Reccommendded|Max/Reccommendded|Unit|
+|---|---|---|---|---|
+|Power-supply voltage|VDD to GND|-3/2|7/5.5|V|
 
