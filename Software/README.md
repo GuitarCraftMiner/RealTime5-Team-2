@@ -2,7 +2,8 @@
 C++ System Software for Controlling the Blade Pitch of the Wind Turbine
 
 ## Running the Program
-To run the program ```main,cpp```, direct to the Software folder and type ```cmake .```, ```make``` and then ```./main```.
+To run the program ```main,cpp```, direct to the Software folder and type ```cmake .```, ```make``` and then ```sudo ./main```.
+```sudo```is required due to generate PWM
 
 
 
