@@ -15,6 +15,10 @@ sudo raspi-config
 ```
 sudo apt-get install wiringpi
 ```
+3. Install cmake
+```
+sudo apt-get install cmake
+```
 
 ## Running the Program
 To run the program ```main,cpp```, direct to the Software folder and type ```cmake .```, ```make``` and then ```sudo ./main```.
