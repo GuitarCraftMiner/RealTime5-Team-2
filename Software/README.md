@@ -5,6 +5,11 @@ C++ System Software for Controlling the Blade Pitch of the Wind Turbine
 
 https://github.com/GuitarCraftMiner/RealTime5-Team-2/wiki/Software
 
+## Pre-Requisites
+1. Enable Raspberry Pi's I2C interfaces
+```sudo raspi-config```
+```# then go to "Interfacing Options and enable I2C```
+
 ## Running the Program
 To run the program ```main,cpp```, direct to the Software folder and type ```cmake .```, ```make``` and then ```sudo ./main```.
 ```sudo```is required due to generate PWM
