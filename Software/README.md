@@ -12,7 +12,9 @@ sudo raspi-config
 # then go to "Interfacing Options and enable I2C
 ```
 2. Install wiring Pi: http://wiringpi.com/download-and-install/
-```sudo apt-get install wiringpi```
+```
+sudo apt-get install wiringpi
+```
 3. Install the ADS1015 C++ Library: https://github.com/hallgrimur1471/Adafruit_ADS1X15_RPi
 
 ## Running the Program
