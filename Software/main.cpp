@@ -7,9 +7,6 @@
 
 // Initialise Variables
 genVoltage gV;
-int input;
-int Vgen;
-
 
 int main(int argc, char *argv[]){
   // Run the System

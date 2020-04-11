@@ -73,7 +73,7 @@ void genVoltage::run(){
 	// CSV DATA LOG
 	FILE *fp;
 	fp = fopen("Data_Log.csv","w");
-	fprintf(fp, "Time, Voltage, PWM\n");
+	fprintf(fp, "Time,Voltage,PWM\n");
 	fclose(fp);
 	clock_t start = clock();
 	
@@ -111,7 +111,7 @@ void genVoltage::run(){
 		double diff = (double)(stop-start)*1000/CLOCKS_PER_SEC;
 		
 		// Print to csv file
-		fprintf(fp, "%f, %f, %i\n", diff, actual_voltage, pwm);
+		fprintf(fp, "%f,%f,%i\n", diff, actual_voltage, pwm);
 		fclose(fp);
 	}
 }

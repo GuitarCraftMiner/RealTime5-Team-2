@@ -6,7 +6,7 @@
 class pwmSet : public CppThread {
 
 public:
-	pwmSet(int _new_pwm) {
+	pwmSet(int _new_pwm){
 		new_pwm = _new_pwm;
 	}
 
