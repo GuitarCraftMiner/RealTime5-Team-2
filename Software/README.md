@@ -1,6 +1,10 @@
 # Software for System
 C++ System Software for Controlling the Blade Pitch of the Wind Turbine
 
+!!! A detailed description can be found at the wiki !!!
+
+https://github.com/GuitarCraftMiner/RealTime5-Team-2/wiki/Software
+
 ## Running the Program
 To run the program ```main,cpp```, direct to the Software folder and type ```cmake .```, ```make``` and then ```sudo ./main```.
 ```sudo```is required due to generate PWM
