@@ -15,7 +15,6 @@ sudo raspi-config
 ```
 sudo apt-get install wiringpi
 ```
-3. Install the ADS1015 C++ Library: https://github.com/hallgrimur1471/Adafruit_ADS1X15_RPi
 
 ## Running the Program
 To run the program ```main,cpp```, direct to the Software folder and type ```cmake .```, ```make``` and then ```sudo ./main```.
