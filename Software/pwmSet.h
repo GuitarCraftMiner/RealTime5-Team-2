@@ -6,14 +6,17 @@
 class pwmSet : public CppThread {
 
 public:
-	pwmSet(int _new_pwm){
-		new_pwm = _new_pwm;
+	pwmSet(int _error){
+		error = _error;
 	}
+	
+	int getPwm(){return new_pwm;}
 
 private:
 	void run();
 
 private:
+	int error;
 	int new_pwm;
 	
 };

@@ -16,35 +16,26 @@ float desired_voltage = 10;
 float actual_voltage = 0;
 float old_voltage = 0;
 float error;
-float Kp = 1.5; // Controller Gain
-int current_pwm = 75; // Set Blade Pitch at best angle
-int new_pwm;
 int pwm;
 
 /* PROPORTIONAL CONTROLLER FOR BLADE PITCH
  * Controller calulates the error between the actual and desired voltage
  * and generates new pwm according to the error
  */
-int controller(){
+void controller(){
 	error = desired_voltage - actual_voltage;
 	
 	if (abs(error) >= 1){
-		new_pwm = current_pwm - (Kp*error);
-		// Limit PWM Range
-		if (new_pwm < 75){
-			new_pwm = 75;
-		}
-		if (new_pwm > 110){
-			new_pwm = 110;
-		}
 		
-		current_pwm = new_pwm;
-		pwmSet pS(new_pwm);
+		// Generates new pwm reading
+		pwmSet pS(error);
 		
 		pS.start();
 		pS.join();
+		
+		// Obtain New PWM
+		pwm = pS.getPwm();
 	}
-	return new_pwm;
 }
 
 /* THREADS TO GENERATED VOLTAGE READINGS AND RUN THE CONTROLLER 
@@ -61,9 +52,9 @@ void genVoltage::run(){
 	pwmSetClock(192);
 	pwmSetRange(2000);
 	printf("Generated Voltage: \t %.4f mv \n", actual_voltage);
-	printf("PWM at %i\n", current_pwm);
+	printf("PWM at 75\n"); // Set Blade Pitch at best angle
 	printf("----------------------------\n");
-	pwmWrite(1, current_pwm);
+	pwmWrite(1, 75); // Set Blade Pitch at best angle
 	// ADC Setup
 	// Define Voltage Range to read to +/-4.096V
 	ads.setGain(GAIN_ONE);
@@ -71,11 +62,13 @@ void genVoltage::run(){
 	ads.begin();
 	
 	// CSV DATA LOG
+	/*
 	FILE *fp;
 	fp = fopen("Data_Log.csv","w");
 	fprintf(fp, "Time,Voltage,PWM\n");
 	fclose(fp);
 	clock_t start = clock();
+	*/
 	
 	// MAIN PROCESS
 	while (true){
@@ -96,7 +89,7 @@ void genVoltage::run(){
 		usleep(10000); //100Hz Sampling Time
 		
 		// Run controller
-		pwm = controller();
+		controller();
 		
 		// Print to Terminal if there is change in Generated Voltage
 		if (error != 10){
@@ -107,11 +100,13 @@ void genVoltage::run(){
 		old_voltage = actual_voltage;
 		
 		// CSV Data Clock
+		/*
 		clock_t stop = clock();
 		double diff = (double)(stop-start)*1000/CLOCKS_PER_SEC;
 		
 		// Print to csv file
 		fprintf(fp, "%f,%f,%i\n", diff, actual_voltage, pwm);
 		fclose(fp);
+		*/
 	}
 }
