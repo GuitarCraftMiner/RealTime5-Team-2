@@ -4,17 +4,13 @@
 
 https://github.com/GuitarCraftMiner/RealTime5-Team-2/wiki/Mechanical-Design
 
-## Assembly
-* All parts separately as .IPT
-* Assemblies as .IAM
 
-## Generator
-* .IPT Autodesk drawing
-* .STP Generic Step file
+## Design Files
 
-## Parts links
+The design was done entirely in Autodesk Fusion 360. This makes the design very accessible as anyone can use Fusion for free with a hObbyist licence (current information, PRIL 2020). To allow people wishing to make a turbine model like this to easily interact with the design files, the full assembly was uploaded in the following formats.
 
-### 4mm Ball Bearings
-Link: https://uk.rs-online.com/web/p/ball-bearings/6189890/
-### 10mm Ball Bearings
-Link: https://uk.rs-online.com/web/p/ball-bearings/6189979/
+ * Autodesk Fusion 360 files (.f3z)
+ * Sutodesk Inventor files (.ipt and .iam files in a zip folder. Contains all components separately as well as the full assembly)
+ * .STL files (3D CAD objects for every component can be viewed in one file but has no design history and is not as editable. Syill well suited for manuufacturing) 
+* Sketchup files (.skp, Not tested, produced by Fusion 360 exporter)
+
