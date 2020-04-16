@@ -1,6 +1,6 @@
 # Real Time Embedded Programming 5 Team 2 
 **Members**
-  - Cheren Chin
+  - Cheren Chin - Software Development and Analog Signal Processing
   - Thanchanok Juthamanee
   - Marton Szafian
 
