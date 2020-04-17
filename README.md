@@ -1,7 +1,7 @@
 # Real Time Embedded Programming 5 Team 2 
 **Members**
-  - Cheren Chin - Software Development and Analog Signal Processing
-  - Thanchanok Juthamanee - General Support
+  - Cheren Chin
+  - Thanchanok Juthamanee
   - Marton Szafian
 
 ## Project Title: Adaptive Wind Turbine Blade Pitch Control
